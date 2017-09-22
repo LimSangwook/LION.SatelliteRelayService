@@ -1,0 +1,27 @@
+오라클 관리 프로그램은
+ftp://jecoerw.iptime.org  active  모느로 접속(passive 안됨)
+id : sw
+pw : 790904
+
+db 접속 정보는 png 파일
+테이블 설명 hwp 있으니 보고
+파일명은 네이밍.hwp  파일 형태로
+
+네이밍 관련
+현재 위성이 NOAA, NPP, AQUA, TERRA   4개가 있는데
+우선 NPP 만  적용함
+noaa 는 기존것이 적용 될듯 함
+기존거
+수신영상 : yyyymmdd.hhss.n##.cf.sst.tif
+일(daily)영상 : yyyymmdd.daily.cf.sst.tif
+주(weekly)영상 : yyyymmdd.weekly.cf.sst.tif   dd 는 시작일임
+월(monthly)영상 : yyyymm.monthly.cf.sst.tif
+ 
+여기서
+cf 는 알고리즘
+sst 는 산출물
+tif 는 파일 확장자(포맷)
+
+우선은 위험성? 때문에 파일명은 기존거 유지 하는걸로 하고
+NPP 위성만 우선적으로 적용
+기존은 YYYYMMDD.hhmm 만 땡기는걸ㄹ로
