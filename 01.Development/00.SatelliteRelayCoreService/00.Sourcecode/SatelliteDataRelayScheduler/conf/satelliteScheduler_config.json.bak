@@ -1,0 +1,13 @@
+{
+  "DBFILE_PATH": "Data Source=D:\\SatelliteProject\\MetadataDB.db",
+  "SATELLITE_FILE_PATH": "D:\\SatelliteProject\\input_data",
+  "SCHEDULING_TIME": {
+    "SHORT_SLEEP": 1,
+    "LONG_SLEEP": 60,
+    "SHORT_TIME_TRIGGER_DIFF": 300
+  },
+  "MINIMUM_INTERVAL_LAST_UPDATE_MINUTES": 5,
+  "LOG_PATH": "D:\\SatelliteProject\\logs\\log.txt",
+  "LOG_LEVEL": "INFO",
+  "DB_DATA_UPDATE": "0"
+}
